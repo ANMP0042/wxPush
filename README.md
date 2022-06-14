@@ -2,7 +2,7 @@
 服务：pushplus；官网：https://pushplus.hxtrip.com
 
 
-go get
+下载
 ````
 go get github.com/ANMP0042/wxPush
 ````
