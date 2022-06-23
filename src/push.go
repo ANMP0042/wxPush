@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	gateway         = "http://pushplus.hxtrip.com/send"
+	gateway         = "http://www.pushplus.plus/send"
 	defaultTemplate = "html"
 	sucCode         = 200
 )
@@ -70,6 +70,7 @@ func (p *push) Send(a Args) error {
 	defer resp.Body.Close()
 
 	b, err := io.ReadAll(resp.Body)
+	fmt.Println(string(b))
 	if err != nil {
 		return err
 	}

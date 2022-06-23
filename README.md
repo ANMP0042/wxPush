@@ -1,7 +1,6 @@
 ###微信消息推送
 
-服务：pushplus；官网：https://pushplus.hxtrip.com
-
+服务：pushplus；官网：   http://www.pushplus.plus
 
 下载
 ````
@@ -31,3 +30,6 @@ if err = p.Send(Args{Title: "这是title", Content: "这里是contnet"}); err !=
 }
 
 ````
+
+
+@更新日志：http://pushplus.hxtrip.com服务停了，更换成http://www.pushplus.plus  2020-06-23

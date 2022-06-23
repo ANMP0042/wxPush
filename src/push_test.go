@@ -13,11 +13,11 @@ import (
 )
 
 func TestPush_Send(t *testing.T) {
-	p, err := NewPush("e54b4aa1c331cc4c5092f4e8ddaf111212176be99")
+	p, err := NewPush("6ec18e8d7c934acc8759d000ac5e05a9")
 	if err != nil {
 		fmt.Println("err = ", err)
 		return
 	}
 
-	p.Send(Args{Title: "这是title", Content: "111"})
+	fmt.Println(p.Send(Args{Title: "这是title", Content: "111"}))
 }
