@@ -13,7 +13,7 @@ import (
 )
 
 func TestPush_Send(t *testing.T) {
-	p, err := NewPush("6ec18e8d7c934acc8759d000ac5e05a9")
+	p, err := NewPush("6ec18e8d7c934a111cc8759d000ac5e05a9")
 	if err != nil {
 		fmt.Println("err = ", err)
 		return
