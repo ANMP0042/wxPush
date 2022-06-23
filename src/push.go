@@ -70,7 +70,6 @@ func (p *push) Send(a Args) error {
 	defer resp.Body.Close()
 
 	b, err := io.ReadAll(resp.Body)
-	fmt.Println(string(b))
 	if err != nil {
 		return err
 	}

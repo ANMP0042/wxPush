@@ -11,7 +11,7 @@ import "errors"
 
 const (
 	errMsgNotFound = "未找到提示信息"
-	tokenIsNull    = "请先前往https://pushplus.hxtrip.com/获取token"
+	tokenIsNull    = "请先前往https://pushplus.plus/获取token"
 	contentIsNull  = "请填写内容"
 )
 
