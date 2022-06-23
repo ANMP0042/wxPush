@@ -9,7 +9,7 @@ go get github.com/ANMP0042/wxPush
 
 获取token
 ````
-https://pushplus.hxtrip.com 注册
+http://www.pushplus.plus 注册
 ````
 
 使用
